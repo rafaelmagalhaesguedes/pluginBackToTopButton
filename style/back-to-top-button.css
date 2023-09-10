@@ -1,0 +1,25 @@
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    background-color: #4d4d4d;
+}
+
+.icon {
+    width: 40px;
+    height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .icon {
+        display: none;
+    }
+}
